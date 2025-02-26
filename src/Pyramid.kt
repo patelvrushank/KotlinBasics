@@ -5,6 +5,7 @@ fun main(){
 
 fun pyramid(n:Int):MutableList<String>{
     val result = mutableListOf<String>()
+
     val maxRow = n * 2 - 1
 
     (1..n).forEach {
